@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>DialogChangeUser</class>
+ <widget class="QDialog" name="DialogChangeUser">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>430</width>
+    <height>220</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>430</width>
+    <height>220</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>430</width>
+    <height>220</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Изменение пользователя</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="resources.qrc">
+    <normaloff>:/new/images/images/Launchpad 2.png</normaloff>:/new/images/images/Launchpad 2.png</iconset>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="1" column="0">
+    <spacer name="verticalSpacer">
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>20</width>
+       <height>11</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item row="0" column="0">
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout">
+       <item>
+        <widget class="QLabel" name="nameLabel">
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>18</height>
+          </size>
+         </property>
+         <property name="text">
+          <string>Имя:</string>
+         </property>
+         <property name="buddy">
+          <cstring>nameField</cstring>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="nameField">
+         <property name="minimumSize">
+          <size>
+           <width>300</width>
+           <height>21</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>300</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="clearButtonEnabled">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_2">
+       <item>
+        <widget class="QLabel" name="surnameLabel">
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>18</height>
+          </size>
+         </property>
+         <property name="text">
+          <string>Фамилия:</string>
+         </property>
+         <property name="buddy">
+          <cstring>surnameField</cstring>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="surnameField">
+         <property name="minimumSize">
+          <size>
+           <width>300</width>
+           <height>22</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>195</width>
+           <height>21</height>
+          </size>
+         </property>
+         <property name="clearButtonEnabled">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_3">
+       <item>
+        <widget class="QLabel" name="loginLabel">
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>18</height>
+          </size>
+         </property>
+         <property name="text">
+          <string>Логин:</string>
+         </property>
+         <property name="buddy">
+          <cstring>loginField</cstring>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="loginField">
+         <property name="minimumSize">
+          <size>
+           <width>300</width>
+           <height>21</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>300</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="clearButtonEnabled">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_4">
+       <item>
+        <widget class="QLabel" name="passwordLabel">
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>18</height>
+          </size>
+         </property>
+         <property name="text">
+          <string>Старый пароль:</string>
+         </property>
+         <property name="buddy">
+          <cstring>passwordField</cstring>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="passwordField">
+         <property name="minimumSize">
+          <size>
+           <width>300</width>
+           <height>21</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>300</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="clearButtonEnabled">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_5">
+       <item>
+        <widget class="QLabel" name="repeatLabel">
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>18</height>
+          </size>
+         </property>
+         <property name="text">
+          <string>Новый пароль:</string>
+         </property>
+         <property name="buddy">
+          <cstring>repeatField</cstring>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="repeatField">
+         <property name="minimumSize">
+          <size>
+           <width>300</width>
+           <height>21</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>300</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="clearButtonEnabled">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </item>
+   <item row="2" column="0">
+    <layout class="QHBoxLayout" name="horizontalLayout_6">
+     <item>
+      <widget class="QPushButton" name="cancelButton">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="minimumSize">
+        <size>
+         <width>113</width>
+         <height>32</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>20</width>
+         <height>32</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: #507299;
+border-radius: 4px;
+color:#FFFFFF;</string>
+       </property>
+       <property name="text">
+        <string>Отмена</string>
+       </property>
+       <property name="autoDefault">
+        <bool>false</bool>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <spacer name="horizontalSpacer">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item>
+      <widget class="QPushButton" name="createButton">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="minimumSize">
+        <size>
+         <width>113</width>
+         <height>32</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>113</width>
+         <height>32</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: #507299;
+border-radius: 4px;
+color:#FFFFFF;</string>
+       </property>
+       <property name="text">
+        <string>Изменить</string>
+       </property>
+       <property name="default">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources>
+  <include location="resources.qrc"/>
+ </resources>
+ <connections/>
+</ui>

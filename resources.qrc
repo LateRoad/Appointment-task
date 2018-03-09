@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/new/images">
+        <file>images/align-justify.png</file>
+        <file>images/cog-wheel-silhouette.png</file>
+        <file>images/home.png</file>
+        <file>images/group-profile-users.png</file>
+        <file>images/power-button-off.png</file>
+        <file>images/arrow-pointing-right-in-a-circle.png</file>
+        <file>images/Launchpad 2.png</file>
+    </qresource>
+</RCC>
